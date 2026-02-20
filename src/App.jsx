@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom'
 import Counter from './pages/Counter'
 import Ecommerce from './pages/Ecommerce'
 import Navigation from './components/Navigation'
-
+import './App.css'
 export default function App(){
   return (
     <div className="app-root">
