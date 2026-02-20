@@ -1,0 +1,26 @@
+.nav{
+  background:var(--card);
+  border-bottom:1px solid #e6e9ef;
+  padding:10px 20px;
+  position:sticky;
+  top:0;
+  z-index:100;
+}
+.nav-inner{max-width:1100px;margin:0 auto;display:flex;align-items:center;gap:16px}
+.nav-brand{font-weight:700;font-size:16px}
+.nav-links{display:flex;gap:8px;margin-left:auto}
+.nav a{
+  color:var(--muted);text-decoration:none;padding:7px 14px;
+  border-radius:6px;font-weight:500;font-size:14px;position:relative;
+  display:inline-flex;align-items:center;gap:6px
+}
+.nav a.active,.nav a:hover{background:var(--bg);color:var(--accent)}
+
+/* Cart item count badge */
+.cart-badge{
+  display:inline-flex;align-items:center;justify-content:center;
+  background:var(--accent);color:#fff;
+  font-size:11px;font-weight:700;
+  min-width:18px;height:18px;border-radius:999px;padding:0 4px;
+  line-height:1
+}
